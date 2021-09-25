@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+/* Box sizing style for all elements. This tells the browser to use the alternative border box model. Size will display actual size of element minus padding and border. */
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+/* End Box sizing style for all elements */  
 .wrapper{
     width: 100%;
 }
